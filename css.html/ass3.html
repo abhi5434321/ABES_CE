@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .aa {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .adi {
+            border: 2px solid #333;
+            height: 150px;
+            width: 120px;
+            background-color: brown;
+            color: white;
+            font-size: 30px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px #888;
+        }
+        .cart-btn {
+            margin-top: 15px;
+            padding: 8px 12px;
+            font-size: 16px;
+            background: #fff;
+            color: brown;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .cart-btn:hover {
+            background: #f0cfcf;
+        }
+        .note {
+            font-size: 12px;
+            color: #ffe4b5;
+            margin-top: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="aa">
+        <div class="adi">
+            pizza
+            <button class="cart-btn">Add to Cart</button>
+            <div class="note">Click to add pizza to cart</div>
+        </div>
+        <div class="adi">
+            coke
+            <button class="cart-btn">Add to Cart</button>
+            <div class="note">Click to add coke to cart</div>
+        </div>
+        <div class="adi">
+            Redbull
+            <button class="cart-btn">Add to Cart</button>
+            <div class="note">Click to add Redbull to cart</div>
+        </div>
+    </div>
+</body>
+</html>
